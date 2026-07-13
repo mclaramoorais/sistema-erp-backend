@@ -1,0 +1,107 @@
+# ==========================
+# Compilação Java
+# ==========================
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ==========================
+# IDEs
+# ==========================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.factorypath
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# ==========================
+# Sistema Operacional
+# ==========================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ==========================
+# Arquivos de ambiente
+# ==========================
+
+.env
+.env.*
+!.env.example
+
+# ==========================
+# Configurações locais
+# ==========================
+
+application-local.yml
+application-dev.yml
+
+# ==========================
+# Banco de dados
+# ==========================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================
+# Cobertura de testes
+# ==========================
+
+coverage/
+jacoco.exec
+
+# ==========================
+# Relatórios
+# ==========================
+
+reports/
+
+# ==========================
+# Arquivos compactados
+# ==========================
+
+*.zip
+*.tar
+*.gz
+*.rar
